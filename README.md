@@ -2,6 +2,9 @@
 #This is a line from RStudio
 #Line added from GitLab
 
+#HOW TO USE GIT
+#OPEN READ ME PROJECT FROM FILE TITLED READ ME. THEN GO TO THE GIT TAB, STAGE BOX READ ME, PRESS COMMIT, EDIT THE MESSAGE, THEN PUSH! 
+
 #Packages
 install.packages("gitcreds")
 install.packages("credentials")

@@ -1,8 +1,7 @@
-# lek-paradox
-#This is a line from RStudio
-#Line added from GitLab
+#Loci Mating Model/Lek Paradox
 
-#HOW TO USE GIT
+
+##############HOW TO USE GIT##########
 #OPEN READ ME PROJECT FROM FILE TITLED READ ME. THEN GO TO THE GIT TAB, STAGE BOX READ ME, PRESS COMMIT, EDIT THE MESSAGE, THEN PUSH! 
 
 #Packages
@@ -11,14 +10,17 @@ install.packages("credentials")
 install.packages("usethis")
 library(ggplot2)
 ##Update Keys
-
 gitcreds::gitcreds_set()
 
+#####Things to do (needed)######
 
-########Things to add (possibly?)
-#Agents with 2 sets of values on one characterstic
-#1-20 maybe dont use Excel, only for the first run
-#Add a mutant chance generator
+#Female Agents choose to reproduce with males that have greater than or equal to at least 1 loci value.
+#Figure out how to make drop downs for cleanliness
+
+########Things to add (possibly?)#############
+#Agents with 2 sets of values on one characterstic (Done)
+#1-20 maybe dont use Excel, only for the first run (Done)
+#Add a mutant chance generator (WIP)
 ###Could be something that , on X chance, right before a gene is chosen from a given loci to regenerate a value on the chosen loci. 
 
 #EX. Birth of new agent wouldve gotten the 15/20 from parent, but mutation chance ticked and the 15/20 was rerolled to a 4/20. Could have a mutation chance spectrum/range
@@ -46,7 +48,6 @@ n<-popsize
 ############agent###########
 agentgenerate<-function(n,sex){
 
-
 #To Track Agent
   ID<-1:n
   
@@ -64,7 +65,7 @@ agentgenerate<-function(n,sex){
 }
 
  
-#########Model Start
+#########Model Start############
 
 females<-agentgenerate(popsize/2,"female")
 males<-agentgenerate(popsize/2,"male")

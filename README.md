@@ -1,4 +1,4 @@
-#Loci Mating Model/Lek Paradox
+#Loci Mating Model/Lek Paradox Prof Dan and LRM
 
 ##############HOW TO USE GIT##########
 #OPEN READ ME PROJECT FROM FILE TITLED READ ME. THEN GO TO THE GIT TAB, STAGE BOX READ ME, PRESS COMMIT, EDIT THE MESSAGE, THEN PUSH! 
